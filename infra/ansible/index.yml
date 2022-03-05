@@ -1,0 +1,8 @@
+---
+- name: Postgresql installation
+  hosts: localhost
+  become: yes
+  tags:
+    - org
+  roles:
+    - postgres_install

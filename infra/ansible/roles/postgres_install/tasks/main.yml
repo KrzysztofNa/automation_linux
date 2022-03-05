@@ -1,0 +1,6 @@
+---
+- name: touch file dupa1
+  file:
+    path: /home/krzysztof/file123
+    state: touch
+    mode: '1777'
