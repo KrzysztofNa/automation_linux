@@ -1,7 +1,9 @@
 include env
+
 export
 .RECIPEPREFIX = >
-.PHONY: ans_postgres
-ans_postgres:
+.PHONY: ans_run_all
+
+ans_run_all:
 > cd $(ANS_SCRIPTS) \
-  && ansible-playbook --tags org index.yml -i $(ANS_INVENTORY)
+  && ansible-playbook --tags org index.yml

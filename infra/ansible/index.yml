@@ -6,3 +6,4 @@
     - org
   roles:
     - postgres_install
+    - python_setup

@@ -1,6 +1,6 @@
 ---
 - name: touch file dupa1
   file:
-    path: /home/krzysztof/file123
+    path: /home/krzysztof/file123dupa
     state: touch
     mode: '1777'
